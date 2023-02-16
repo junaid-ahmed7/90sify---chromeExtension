@@ -1,26 +1,50 @@
-div {
-  all: revert;
-}
-
 a {
-  all: revert;
+  all: revert !important;
 }
 
+/* input {
+  all: revert !important;
+} */
 button {
+  all: revert !important;
+}
+body {
+  background-image: url("https://i.ebayimg.com/images/g/vlwAAOSwA3tXohL4/s-l500.jpg") !important;
+  background-repeat: repeat !important;
+  background-size: 200px !important;
+  background-color: aqua;
+  height:100%;
+  width:100%;
+  all: revert;
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+  font-size: 26px !important;
+  color: darkmagenta !important;
+  /* background-color: black; */
+}
+
+img {
   all: revert;
 }
-
-body{
-    all: revert;
-}
-
 img {
-    all: revert;
+  transform: rotate(130deg) scaleX(-1);
+  animation: 3s linear infinite wave;
 }
-
-img {
-    transition: transform 2s
-
+#gif {
+  background-color: aqua;
+  margin-left: 20%;
+  /* position: fixed; */
 }
-
-
+@keyframes wave {
+  10% {
+    transform: rotate(90deg) scaleX(-1);
+  }
+  20% {
+    transform: rotate(180deg) scaleX(-1);
+  }
+  30% {
+    transform: rotate(270deg) scaleX(-1);
+  }
+  40% {
+    transform: rotate(360deg) scaleX(-1);
+  }
+}

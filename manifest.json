@@ -1,13 +1,15 @@
 {
-    "manifest_version": 3, 
-    "name": "TBD",
-    "version": "1.0.1",  
-    "action": {},
-    "description": "This will be awesome", 
-    "background": {},
-    "content_scripts": [{
-        "matches": ["<all_urls>"], 
-        "css": ["font-size.css"]
-        // "js": ["remove.js"]
-    }]
+  "manifest_version": 3,
+  "name": "TBD",
+  "version": "1.0.1",
+  "action": {},
+  "description": "This will be awesome",
+  "background": {},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["font-size.css"],
+      "js": ["remove.js"]
+    }
+  ]
 }
