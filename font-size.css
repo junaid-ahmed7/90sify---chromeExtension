@@ -1,0 +1,26 @@
+div {
+  all: revert;
+}
+
+a {
+  all: revert;
+}
+
+button {
+  all: revert;
+}
+
+body{
+    all: revert;
+}
+
+img {
+    all: revert;
+}
+
+img {
+    transition: transform 2s
+
+}
+
+
