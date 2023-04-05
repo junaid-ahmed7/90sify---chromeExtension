@@ -1,9 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "TBD",
-  "version": "1.0.1",
-  "action": {},
-  "description": "This will be awesome",
+  "name": "90sify",
+  "version": "1.0.7",
+  "action": {
+    "default_icon": "mtv-logo-1024x814.png"
+  },
+  "icons": {
+    "16": "mtv-logo-1024x814.png",
+    "48": "mtv-logo-1024x814.png",
+    "128": "mtv-logo-1024x814.png"
+  },
+  "description": "getting older? feeling nostalgic? fear not! now you can 90sify your web browsing experience once more!",
   "background": {},
   "content_scripts": [
     {
